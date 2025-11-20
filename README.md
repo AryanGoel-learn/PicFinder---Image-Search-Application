@@ -40,12 +40,17 @@ Project Structure
 text
 picfinder/
 
-├── index.html          # Main search interface
-├── about.html          # Project information
-├── contact.html        # Team contact form
-├── style.css           # Global stylesheet
-├── index.js            # Search functionality
-└── contact.js          # Form handling
+index.html          # Main search interface
+
+about.html          # Project information
+
+contact.html        # Team contact form
+
+style.css           # Global stylesheet
+
+index.js            # Search functionality
+
+contact.js          # Form handling
 
 🚀 Core Functionality
 
