@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/128/12649/12649663.png">
+    <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+
+    <div id="vanta-bg"></div>
+
+    <header>
+        <img src="download.png" id="Graff" />
+    </header>
+
+    <nav>
+        <div class="panel">
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="about.html">About</a></td>
+                    <td><a href="contact.html">Contact</a></td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+
+    <section class="contact-container">
+
+        <h1>Have a Question?</h1>
+        <div class="boxes">
+            <p class="subtitle">
+                We’re here to help! Fill out the form and our team will get back to you within 24 business hours.
+            </p>
+        </div>
+        <div class="contact-wrapper">
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> picfinder@gmail.com</p>
+                <p><strong>Phone:</strong> +91 9811796645</p>
+                <p><strong>Memebers:</strong> Aryan Goel
+
+                    <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Mudassir Kamaal
+
+                    <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Naman Chaurasiya
+
+                    <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Divit Khandelwal
+
+                    <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lakshay Aggarwal</p>
+            </div>
+
+            <!-- FORM PANEL -->
+            <form action="#" class="contact-form">
+                <div class="row">
+                    <input type="text" placeholder="First Name *" required />
+                    <input type="text" placeholder="Last Name *" required />
+                </div>
+
+                <input type="email" placeholder="Email *" required />
+                <input type="text" placeholder="Phone Number (optional)" />
+
+                <div class="Select">
+
+                    <select style="color:grey;" required>
+          <option value="">Select your topic *</option>
+          <option style="color:grey;">General Inquiry</option>
+          <option style="color:grey;">Product Question</option>
+          <option style="color:grey;">Order Support</option>
+          <option style="color:grey;">Business Inquiry</option>
+        </select>
+
+                </div>
+
+                <textarea placeholder="Your Message *" required></textarea>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <script src="contact.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+    <script>
+        VANTA.NET({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xfffafc,
+            backgroundColor: 0x000000,
+            points: 12.00,
+            maxDistance: 34.00,
+            spacing: 18.00,
+        });
+    </script>
+
+</body>
+
+</html>

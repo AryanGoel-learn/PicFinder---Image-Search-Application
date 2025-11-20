@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — PicFinder</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/128/12649/12649663.png">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        * {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!-- VANTA BACKGROUND -->
+    <div id="vanta-bg"></div>
+    <!-- HEADER -->
+    <header><img src="download.png" id="Graff"></header>
+    <header class="title">
+        <h1>About PicFinder</h1>
+    </header>
+    <nav>
+        <div class="panel">
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="about.html">About</a></td>
+                    <td><a href="contact.html">Contact</a></td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    <div id="box">
+        <H3>
+            <div class="about-container">
+                <h2>Welcome to PicFinder</h2>
+                <p>PicFinder is an innovative image search platform designed to provide users with a seamless experience for discovering high-quality visuals. Our mission is to bridge the gap between creativity and accessibility.</p>
+                
+                <h2>Our Vision</h2>
+                <p>We believe that everyone should have access to beautiful, high-quality images regardless of their technical expertise or creative background. PicFinder simplifies the process of finding the perfect visual content.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>Advanced Search:</strong> Intelligent algorithms to find exactly what you're looking for</li>
+                    <li><strong>High-Quality Content:</strong> Curated collection from premium sources</li>
+                    <li><strong>User-Friendly Interface:</strong> Intuitive design that requires no learning curve</li>
+                    <li><strong>Fast Performance:</strong> Optimized for quick loading and smooth browsing</li>
+                    <li><strong>Free Access:</strong> No cost for personal or commercial use</li>
+                </ul>
+
+                <h2>How It Works</h2>
+                <ol>
+                    <li>Enter your search term in the search bar</li>
+                    <li>Browse through dynamically loaded results</li>
+                    <li>Click on any image to view details</li>
+                    <li>Use the "Show More" button to explore additional content</li>
+                    <li>Download or share your favorite finds</li>
+                </ol>
+
+                <h2>Technology Powering PicFinder</h2>
+                <p>Our platform leverages cutting-edge web technologies including modern JavaScript frameworks, responsive CSS design, and integration with leading image APIs to deliver a superior user experience.</p>
+
+                <p style="text-align: center; margin-top: 30px; font-style: italic;">
+                    "Empowering creativity through accessible visual discovery"
+                </p>
+            </div>
+        </H3>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        var setVanta = () => {
+            if (window.VANTA) window.VANTA.NET({
+                el: "#vanta-bg",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0xfffafc,
+                backgroundColor: 0x000000,
+                points: 12.00,
+                maxDistance: 34.00,
+                spacing: 18.00,
+            });
+        }
+
+        ;
+        window.addEventListener("DOMContentLoaded", setVanta);
+    </script>
+</body>
+
+</html>
